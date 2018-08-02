@@ -1,0 +1,4 @@
+#Thu Aug 02 12:54:39 CEST 2018
+base.0=C\:\\Users\\ruben\\AndroidStudioProjects\\WALTERStation\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+path.0=classes.dex
+renamed.0=classes.dex
