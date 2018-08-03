@@ -43,4 +43,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="88dp" />
 
+    <Button
+        android:id="@+id/rescanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dataReceived"
+        android:layout_alignTop="@+id/sendButton"
+        android:text="Rescan" />
+
 </RelativeLayout>

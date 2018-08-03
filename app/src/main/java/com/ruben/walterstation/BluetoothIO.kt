@@ -6,9 +6,6 @@ import android.content.Context
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
-import android.content.Intent
-import android.content.BroadcastReceiver
-import android.content.IntentFilter
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -34,29 +31,10 @@ class BluetoothIO(private val context: Context, private val activity: Activity)
     private var bluetoothSocket: BluetoothSocket? = null
     var connected = false
 
-    private val bluetoothReceiver = object: BroadcastReceiver()
-    {
-        override fun onReceive(context: Context, intent: Intent)
-        {
-            if (BluetoothDevice.ACTION_FOUND == intent.action)
-            {
-                val device = intent.getParcelableExtra<BluetoothDevice>(BluetoothDevice.EXTRA_DEVICE)
-
-                if (device.address == MAC_ADDRESS)
-                {
-                    bluetoothDevice = device
-                    activity.unregisterReceiver(this)
-                    bluetoothAdapter!!.cancelDiscovery()
-
-                    activity.mainTextView.text = device.name + ": " + device.address
-                }
-            }
-        }
-    }
-
     fun initialize()
     {
-        bluetoothAdapter!!.enable()
+        if (!bluetoothAdapter!!.isEnabled)
+            bluetoothAdapter!!.enable()
 
         if (bluetoothAdapter == null)
             showExitAlert(context, activity, "No Bluetooth adapter found")
@@ -65,7 +43,7 @@ class BluetoothIO(private val context: Context, private val activity: Activity)
 
         do
         {
-            Thread.sleep(500)
+            Thread.sleep(50)
             devices = bluetoothAdapter!!.bondedDevices
 
         } while (devices.isEmpty())
@@ -81,33 +59,34 @@ class BluetoothIO(private val context: Context, private val activity: Activity)
         }
 
         if (bluetoothDevice == null)
-        {
-            val intentFilter = IntentFilter(BluetoothDevice.ACTION_FOUND)
-            activity.registerReceiver(bluetoothReceiver, intentFilter)
-
-            if (!bluetoothAdapter!!.startDiscovery())
-                showExitAlert(context, activity, "Couldn't start Bluetooth search")
-        }
-
-        if (bluetoothDevice == null)
-            showExitAlert(context, activity, "Raspberry Pi not found!")
+            showExitAlert(context, activity, "Raspberry Pi not found in paired devices, pair it first!")
 
         bluetoothSocket = bluetoothDevice!!.createRfcommSocketToServiceRecord(BT_UUID)
 
-        if (!bluetoothSocket!!.isConnected)
+        connected = try {
             bluetoothSocket!!.connect()
-
-        connected = true
+            true
+        } catch (exception: Exception) { false }
     }
 
     fun write(data: String)
     {
-        bluetoothSocket!!.outputStream.write(data.toByteArray())
+        if (connected)
+        {
+            try {
+                bluetoothSocket!!.outputStream.write(data.toByteArray())
+            } catch (exception: Exception) { close() }
+        }
     }
 
     fun read(bytes: ByteArray)
     {
-        bluetoothSocket!!.inputStream.read(bytes)
+        if (connected)
+        {
+            try {
+                bluetoothSocket!!.inputStream.read(bytes)
+            } catch (exception: Exception) { close() }
+        }
     }
 
     fun close()

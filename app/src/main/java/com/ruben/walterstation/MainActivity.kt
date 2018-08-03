@@ -11,24 +11,28 @@ import java.lang.ref.WeakReference
 class MainActivity : AppCompatActivity()
 {
     private val bluetoothIO = BluetoothIO(this, this)
+    private val initBluetooth = Thread {
+        bluetoothIO.initialize()
+
+        if (bluetoothIO.connected)
+            BluetoothTask(bluetoothIO, this).execute()
+        else
+            Toast.makeText(this, "Device not found!", Toast.LENGTH_LONG).show()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        try {
-            bluetoothIO.initialize()
-        } catch (exception : Exception) {}
-
-        /* Thread that will continue checking if data has been received */
-        BluetoothTask(bluetoothIO, this).execute()
+        initBluetooth.run()
 
         sendButton.setOnClickListener {
-
             if (bluetoothIO.connected)
                 bluetoothIO.write(dataEditText.text.toString())
         }
+
+        rescanButton.setOnClickListener { if (!bluetoothIO.connected) initBluetooth.run() }
     }
 
     class BluetoothTask(private val bluetoothIO: BluetoothIO, context: MainActivity) :
@@ -39,17 +43,10 @@ class MainActivity : AppCompatActivity()
 
         override fun doInBackground(vararg p0: Void?): Void?
         {
-            while (true)
+            while (bluetoothIO.connected)
             {
                 bluetoothIO.read(readBuffer)
-
                 publishProgress(readBuffer)
-
-                if (readBuffer.isEmpty())
-                {
-                    bluetoothIO.close()
-                    break
-                }
             }
 
             return null
