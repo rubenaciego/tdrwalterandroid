@@ -6,11 +6,56 @@ import android.content.Context
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
+import android.os.AsyncTask
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import org.json.JSONObject
+import java.lang.ref.WeakReference
 import java.util.*
 
 
-class BluetoothIO(private val context: Context, private val activity: Activity)
+class BluetoothTask(private val bluetoothIO: BluetoothIO) :
+        AsyncTask<Void, ByteArray, Void>()
+{
+    private var readBuffer = ByteArray(1024)
+    private var activity : WeakReference<Activity> = WeakReference(bluetoothIO.activity)
+
+    override fun doInBackground(vararg p0: Void?): Void?
+    {
+        while (bluetoothIO.connected)
+        {
+            bluetoothIO.read(readBuffer)
+            publishProgress(readBuffer)
+        }
+
+        return null
+    }
+
+    override fun onProgressUpdate(vararg values: ByteArray)
+    {
+        val jsonObj = JSONObject(String(values[0]))
+        var str = ""
+
+        for (i in 0 until jsonObj.names().length())
+        {
+            str += jsonObj.names().getString(i) + ":  " + jsonObj.get(jsonObj.names().getString(i))
+
+            if (i != jsonObj.names().length() - 1)
+                str += "\n"
+        }
+
+        activity.get()!!.dataReceived.text = str
+    }
+
+    override fun onPostExecute(result: Void?)
+    {
+        Toast.makeText(activity.get(), "Device disconnected!", Toast.LENGTH_LONG).show()
+        activity.get()!!.connectedTextView.text = "State: disconnected"
+    }
+}
+
+
+class BluetoothIO(private val context: Context, val activity: Activity)
 {
     companion object
     {
@@ -53,7 +98,6 @@ class BluetoothIO(private val context: Context, private val activity: Activity)
             if (device.address == MAC_ADDRESS)
             {
                 bluetoothDevice = device
-                activity.mainTextView.text = device.name + ": " + device.address
                 break
             }
         }

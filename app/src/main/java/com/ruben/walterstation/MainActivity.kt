@@ -1,23 +1,37 @@
 package com.ruben.walterstation
 
-import android.os.AsyncTask
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.ref.WeakReference
 
 
 class MainActivity : AppCompatActivity()
 {
     private val bluetoothIO = BluetoothIO(this, this)
-    private val initBluetooth = Thread {
-        bluetoothIO.initialize()
+    private var initBluetooth : Thread? = null
 
-        if (bluetoothIO.connected)
-            BluetoothTask(bluetoothIO, this).execute()
-        else
-            Toast.makeText(this, "Device not found!", Toast.LENGTH_LONG).show()
+    private fun getThread() : Thread
+    {
+        return Thread {
+            bluetoothIO.initialize()
+
+            if (bluetoothIO.connected)
+            {
+                BluetoothTask(bluetoothIO).execute()
+                runOnUiThread {
+                    Toast.makeText(this, "Device connected!", Toast.LENGTH_LONG).show()
+                    connectedTextView.text = "State: connected"
+                }
+            }
+            else
+            {
+                runOnUiThread {
+                    Toast.makeText(this, "Device not found!", Toast.LENGTH_LONG).show()
+                    connectedTextView.text = "State: disconnected"
+                }
+            }
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?)
@@ -25,41 +39,17 @@ class MainActivity : AppCompatActivity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initBluetooth.run()
+        initBluetooth = getThread()
+        initBluetooth!!.start()
 
-        sendButton.setOnClickListener {
-            if (bluetoothIO.connected)
-                bluetoothIO.write(dataEditText.text.toString())
-        }
-
-        rescanButton.setOnClickListener { if (!bluetoothIO.connected) initBluetooth.run() }
-    }
-
-    class BluetoothTask(private val bluetoothIO: BluetoothIO, context: MainActivity) :
-            AsyncTask<Void, ByteArray, Void>()
-    {
-        private var readBuffer = ByteArray(1024)
-        private var activity : WeakReference<MainActivity> = WeakReference(context)
-
-        override fun doInBackground(vararg p0: Void?): Void?
-        {
-            while (bluetoothIO.connected)
+        rescanButton.setOnClickListener {
+            if (!bluetoothIO.connected && !initBluetooth!!.isAlive)
             {
-                bluetoothIO.read(readBuffer)
-                publishProgress(readBuffer)
+                connectedTextView.text = "State: scanning..."
+
+                initBluetooth = getThread()
+                initBluetooth!!.start()
             }
-
-            return null
-        }
-
-        override fun onProgressUpdate(vararg values: ByteArray)
-        {
-            activity.get()!!.dataReceived.text = String(values[0])
-        }
-
-        override fun onPostExecute(result: Void?)
-        {
-            Toast.makeText(activity.get(), "Device disconnected!", Toast.LENGTH_LONG).show()
         }
     }
 }
