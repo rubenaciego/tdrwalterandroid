@@ -78,11 +78,11 @@ class BluetoothIO(private val context: Context, val activity: Activity)
 
     fun initialize()
     {
+		if (bluetoothAdapter == null)
+            showExitAlert(context, activity, "No Bluetooth adapter found")
+
         if (!bluetoothAdapter!!.isEnabled)
             bluetoothAdapter!!.enable()
-
-        if (bluetoothAdapter == null)
-            showExitAlert(context, activity, "No Bluetooth adapter found")
 
         var devices: MutableSet<BluetoothDevice>
 

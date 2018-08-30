@@ -4,9 +4,15 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.MapFragment
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.LatLng
 
 
-class MainActivity : AppCompatActivity()
+class MainActivity : AppCompatActivity(), OnMapReadyCallback
 {
     private val bluetoothIO = BluetoothIO(this, this)
     private var initBluetooth : Thread? = null
@@ -39,6 +45,9 @@ class MainActivity : AppCompatActivity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val mapFrag = fragmentManager.findFragmentById(R.id.mapFragment) as MapFragment
+        mapFrag.getMapAsync(this)
+
         initBluetooth = getThread()
         initBluetooth!!.start()
 
@@ -51,5 +60,12 @@ class MainActivity : AppCompatActivity()
                 initBluetooth!!.start()
             }
         }
+    }
+
+    override fun onMapReady(googleMap: GoogleMap?)
+    {
+        val sydney = LatLng(-34.0, 151.0)
+        googleMap!!.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 }
