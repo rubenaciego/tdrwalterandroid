@@ -8,6 +8,10 @@ import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
 import android.os.AsyncTask
 import android.widget.Toast
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
+import kotlin.text.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 import java.lang.ref.WeakReference
@@ -44,7 +48,17 @@ class BluetoothTask(private val bluetoothIO: BluetoothIO) :
                 str += "\n"
         }
 
-        activity.get()!!.dataReceived.text = str
+        val mainActivity = activity.get()!! as MainActivity
+        mainActivity.dataReceived.text = str
+
+        if (mainActivity.mapReady)
+        {
+            val coord = jsonObj.get("GPS").toString().split(",")
+            val location = LatLng(coord[0].toDouble(), coord[1].toDouble())
+            mainActivity.map!!.addMarker(MarkerOptions().position(location).title("Current position"))
+            mainActivity.map!!.moveCamera(CameraUpdateFactory.newLatLng(location))
+        }
+
     }
 
     override fun onPostExecute(result: Void?)
