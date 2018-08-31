@@ -6,5 +6,4 @@ This repo contains the Android app of the project.
 To do:
 <ul>
     <li>Improve UI
-    <li>Implement the current functionality, like showing all the data
 <ul/>
