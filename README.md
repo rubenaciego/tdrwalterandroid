@@ -1,2 +1,2 @@
-# TDR WALTER App
+# TDR Walter App
 Android app of a school project
