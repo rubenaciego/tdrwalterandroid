@@ -1,218 +1,218 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\bba3789a48aaf9be95021db8dea49214\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:17:1-32:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\be40998cfe028478a50d2d18554338a7\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/50cb0301a6082f038197d5a757bf1d3a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/438d4fe6b4dfbb5ccedbe463c57465ad/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:17:1-30:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:6:5-68
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:6:22-65
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:6:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:7:5-74
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:7:22-71
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:7:22-71
 application
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:9:5-33:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\bba3789a48aaf9be95021db8dea49214\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\bba3789a48aaf9be95021db8dea49214\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:30:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\be40998cfe028478a50d2d18554338a7\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\be40998cfe028478a50d2d18554338a7\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:24:5-28:19
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:9:5-33:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/50cb0301a6082f038197d5a757bf1d3a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/50cb0301a6082f038197d5a757bf1d3a/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:30:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/438d4fe6b4dfbb5ccedbe463c57465ad/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/438d4fe6b4dfbb5ccedbe463c57465ad/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:11:9-41
 	tools:ignore
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:16:9-48
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:16:9-48
 	android:roundIcon
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:15:9-36
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:15:9-36
 	android:theme
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:14:9-40
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:18:9-20:69
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:23:9-25:69
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:20:13-66
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:20:13-66
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:19:13-58
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:19:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:22:9-24:70
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:22:9-24:70
 	android:value
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:24:13-68
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:24:13-68
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:23:13-58
 activity#com.ruben.walterstation.MainActivity
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:26:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml:30:27-74
 uses-sdk
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\bba3789a48aaf9be95021db8dea49214\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\bba3789a48aaf9be95021db8dea49214\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\be40998cfe028478a50d2d18554338a7\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\be40998cfe028478a50d2d18554338a7\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80bd13aa29006d2adcdc775862456cf7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/50cb0301a6082f038197d5a757bf1d3a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/50cb0301a6082f038197d5a757bf1d3a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/438d4fe6b4dfbb5ccedbe463c57465ad/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/438d4fe6b4dfbb5ccedbe463c57465ad/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0e8f1297730d7fc9db2fb54e57aa2bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:20:5-22:41
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ruben\AndroidStudioProjects\WALTERStation\app\src\main\AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		ADDED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\e4fd4b58cd3da07b0bafb5035d2694cf\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\824b52e5f44acae20fe1e5e41ac03089\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\3be78815634d7e2e6f22c0e6eeb55257\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\204f1759cd763c0e63e76d4e7f0792bc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f4ed36345140aec1dd515ad497aed595\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\7f7816114a3aff63fae64c12f172f086\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dfde3a88889ae887855bd6824936a58a\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\004125a3978375b361f66620f1a19df9\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c9fed220e20bc01e4a65d2e7fd633c7b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f7be3f1d95f8a014b347cf434506a298/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1731e7038ec8ed9602dd29437c494198/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/703b62e5f23da93632fc9ee3a50bd84e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/c226fadf2f663f14a17c04ce2974109f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3fe733ac4642ba98de0b988486b660e6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/31d343ec68ca660d6c88e5bd360141d5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0e27a4d1c0befc6574e8ef290a90c41f/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\e8df01135fdcd33e1f4e7778a7cdc789\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/AndroidManifest.xml:27:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:23:5-79
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:23:22-76
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:23:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:24:5-67
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:24:22-64
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:24:22-64
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\fd77de636497e2cf8fa442344402b28c\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/28f4dc6096353ba2a557434c00eef1ad/AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\0892582cfa74848b82d83f2473029792\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/ruben/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c6e162ec3facdecdc008512786c92617/AndroidManifest.xml:24:13-79
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ruben\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f1b56686af570015733c1875c671b727\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ruben/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9f371335088f594594a78cfd08fa6fc9/AndroidManifest.xml:26:13-58

@@ -69,6 +69,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback
         map = googleMap
 
         val location = LatLng(41.535791, 2.210348)
-        googleMap!!.moveCamera(CameraUpdateFactory.newLatLng(location))
+        googleMap!!.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 15.0f))
     }
 }

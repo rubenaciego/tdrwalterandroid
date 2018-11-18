@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ruben\\AndroidStudioProjects\\WALTERStation\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "/media/ruben/Windows/Users/ruben/AndroidStudioProjects/WALTERStation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ruben\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e8df01135fdcd33e1f4e7778a7cdc789\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/home/ruben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e1d6b5e5489e78635b55cbe71e25406b/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

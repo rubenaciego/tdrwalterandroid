@@ -19,37 +19,40 @@
         android:id="@+id/rescanButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="64dp"
-        android:layout_marginStart="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="391dp"
         android:text="Rescan" />
 
     <TextView
         android:id="@+id/dataTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/rescanButton"
-        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-229dp"
+        android:layout_marginTop="100dp"
         android:text="Data:" />
 
     <TextView
         android:id="@+id/connectedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/rescanButton"
-        android:layout_marginTop="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-233dp"
+        android:layout_marginTop="72dp"
         android:text="State: scanning..." />
 
     <fragment
-        android:name="com.google.android.gms.maps.MapFragment"
-        android:layout_width="400px"
-        android:layout_height="400px"
         android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="355dp"
+        android:layout_height="217dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="76dp"
+        android:layout_marginStart="-112dp"
+        android:layout_marginBottom="23dp"
         android:layout_toEndOf="@+id/connectedTextView">
 
 

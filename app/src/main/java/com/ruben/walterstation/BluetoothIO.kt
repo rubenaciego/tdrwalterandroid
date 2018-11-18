@@ -24,6 +24,10 @@ class BluetoothTask(private val bluetoothIO: BluetoothIO) :
     private var readBuffer = ByteArray(1024)
     private var activity : WeakReference<Activity> = WeakReference(bluetoothIO.activity)
 
+    private val units = mapOf(
+        "CO" to "ppm", "TEMP" to "ºC", "TURBIDITY" to "NTU",
+        "LUXES" to "lx", "TEMPH2O" to "ºC")
+
     override fun doInBackground(vararg p0: Void?): Void?
     {
         while (bluetoothIO.connected)
@@ -42,7 +46,8 @@ class BluetoothTask(private val bluetoothIO: BluetoothIO) :
 
         for (i in 0 until jsonObj.names().length())
         {
-            str += jsonObj.names().getString(i) + ":  " + jsonObj.get(jsonObj.names().getString(i))
+            var name = jsonObj.names().getString(i)
+            str += name + "(" + units[name] + "):  " + jsonObj.get(name)
 
             if (i != jsonObj.names().length() - 1)
                 str += "\n"
