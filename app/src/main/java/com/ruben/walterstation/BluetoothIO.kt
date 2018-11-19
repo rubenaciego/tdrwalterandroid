@@ -61,7 +61,7 @@ class BluetoothTask(private val bluetoothIO: BluetoothIO) :
             val coord = jsonObj.get("GPS").toString().split(",")
             val location = LatLng(coord[0].toDouble(), coord[1].toDouble())
             mainActivity.map!!.addMarker(MarkerOptions().position(location).title("Current position"))
-            mainActivity.map!!.moveCamera(CameraUpdateFactory.newLatLng(location))
+            mainActivity.map!!.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 15.0f))
         }
 
     }
