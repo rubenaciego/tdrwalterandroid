@@ -47,7 +47,7 @@ class BluetoothTask(private val bluetoothIO: BluetoothIO) :
         for (i in 0 until jsonObj.names().length())
         {
             var name = jsonObj.names().getString(i)
-            str += name + "(" + units[name] + "):  " + jsonObj.get(name)
+            str += name + "(" + units[name] + "): " + jsonObj.get(name)
 
             if (i != jsonObj.names().length() - 1)
                 str += "\n"
